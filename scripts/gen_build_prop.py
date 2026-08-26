@@ -249,6 +249,7 @@ def generate_build_info(args):
   print(f"ro.build.flavor={config['BuildFlavor']}")
 
   print(f"ro.circle.device={config['LineageDevice']}")
+  print(f"ro.circle.maintainer={config['CircleMaintainer']}")
 
   # These values are deprecated, use "ro.product.cpu.abilist"
   # instead (see below).
